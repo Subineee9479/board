@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>글쓰기 폼</title>
+</head>
+<body>
+	<h1>글쓰기 폼</h1>
+	<form action="/write" method="post">
+		이름 : 세션에서 읽어들인 이름 <br/>
+		제목 : <input type="text" name="title" /><br/>
+		내용 : <br>
+		<!-- 50개의 컬럼과 5줄로 구성 -->
+		<textarea name="content" cols="50" rows="5"></textarea><br> 
+		<input type="submit" value="등록" />	
+	</form>
+
+</body>
+</html>
